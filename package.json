@@ -4,7 +4,7 @@
   "description": "Extract structured data from the minecraft wiki",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec",
+    "test": "mocha --reporter spec -g 'get entities dmg'",
     "fix": "standard --fix"
   },
   "dependencies": {
